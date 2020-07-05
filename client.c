@@ -164,7 +164,7 @@ void equipMain(int client_sock)
       read(pipe_c2p[0], tmp, BUFF_SIZE);
       close(pipe_c2p[0]);
 
-      //printf("\n\n%s\n\n", tmp);
+      printf("\n\n%s\n\n", tmp);
 
     } // end switch fork()
   }   // end while
